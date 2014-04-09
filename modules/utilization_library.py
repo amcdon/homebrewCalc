@@ -1,3 +1,7 @@
+"""
+library for ibu calculator utilization input
+"""
+
 utilization = {
     0 : {
         1.030: 0.00,

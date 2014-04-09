@@ -49,7 +49,7 @@
       <file leaf-file-name="utilization_library.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="405" selection-end="405" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="3555">
+            <state line="1" column="44" selection-start="48" selection-end="48" vertical-scroll-proportion="0.026595745" vertical-offset="0" max-vertical-offset="3615">
               <folding />
             </state>
           </provider>
@@ -383,7 +383,11 @@
       <created>1397012054831</created>
       <updated>1397012054831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update utilization library formatting for readability">
+      <created>1397012332244</created>
+      <updated>1397012332244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,7 +427,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Added ibu utilization library for ibu calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ibu utilization library for ibu calculator" />
+    <MESSAGE value="update utilization library formatting for readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="update utilization library formatting for readability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="405" selection-end="405" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="3555">
+        <state line="1" column="44" selection-start="48" selection-end="48" vertical-scroll-proportion="0.026595745" vertical-offset="0" max-vertical-offset="3615">
           <folding />
         </state>
       </provider>
