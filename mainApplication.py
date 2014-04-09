@@ -109,9 +109,9 @@ def calcIBU():
     total_ibu = 0.0
 
     while ingredient_place_holder <= ingredients:
-        weight = float(raw_input("Hop " + str(ingredient_place_holder) + " weight. "))
-        alpha_acid = float(raw_input("Hop " + str(ingredient_place_holder) + " alpha acid percentage. "))
-        boil_time = int(raw_input("how long will hop" + str(ingredient_place_holder) + "be in the boil? "))
+        weight = float(raw_input("Hop " + str(ingredient_place_holder) + " weight in ounces? "))
+        alpha_acid = float(raw_input("Hop " + str(ingredient_place_holder) + " alpha acid percentage? "))
+        boil_time = int(raw_input("how long will hop " + str(ingredient_place_holder) + " be in the boil? "))
         aau = ibuCalculator.calcAAU(weight, alpha_acid)
         utilization = util.utilization[boil_time][original_gravity]
         total_ibu += ibuCalculator.calcIBU(aau, utilization, volume)
