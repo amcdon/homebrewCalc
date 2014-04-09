@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc6094c-bda7-4968-8237-9050111cd32c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/utilization_library.py" afterPath="$PROJECT_DIR$/modules/utilization_library.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/calculators.py" afterPath="$PROJECT_DIR$/modules/calculators.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homeBrewCalc.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calculators.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="calculators.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/calculators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="570">
+            <state line="19" column="28" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5053192" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -38,18 +38,16 @@
       <file leaf-file-name="mainApplication.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainApplication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="517" max-vertical-offset="1530">
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utilization_library.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="utilization_library.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="44" selection-start="48" selection-end="48" vertical-scroll-proportion="0.026595745" vertical-offset="0" max-vertical-offset="3615">
+            <state line="20" column="21" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3615">
               <folding />
             </state>
           </provider>
@@ -75,9 +73,9 @@
       <list>
         <option value="$PROJECT_DIR$/originalGravityCalculator/originalGravityCalculator.py" />
         <option value="$PROJECT_DIR$/modules/originalGravityCalculator.py" />
-        <option value="$PROJECT_DIR$/modules/calculators.py" />
-        <option value="$PROJECT_DIR$/mainApplication.py" />
         <option value="$PROJECT_DIR$/modules/utilization_library.py" />
+        <option value="$PROJECT_DIR$/mainApplication.py" />
+        <option value="$PROJECT_DIR$/modules/calculators.py" />
       </list>
     </option>
   </component>
@@ -387,7 +385,11 @@
       <created>1397012332244</created>
       <updated>1397012332244</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add comments">
+      <created>1397012466291</created>
+      <updated>1397012466291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -428,7 +430,8 @@
     </option>
     <MESSAGE value="Added ibu utilization library for ibu calculator" />
     <MESSAGE value="update utilization library formatting for readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="update utilization library formatting for readability" />
+    <MESSAGE value="add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -444,9 +447,7 @@
     <entry file="file://$PROJECT_DIR$/mainApplication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="95" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,25 +456,23 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/calculators.py">
+    <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="20" column="21" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainApplication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="517" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
+    <entry file="file://$PROJECT_DIR$/modules/calculators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="44" selection-start="48" selection-end="48" vertical-scroll-proportion="0.026595745" vertical-offset="0" max-vertical-offset="3615">
+        <state line="19" column="28" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5053192" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>

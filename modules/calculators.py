@@ -22,6 +22,14 @@ class IBUCalculator(object):
     def __init__(self):
         pass
 
+    def calcAAU(self, weight, alphaAcids):
+        aau = weight * alphaAcids
+        return aau
+
+    def calcIBU(self, aau, utilization, volume):
+        ibu = aau * utilization * 75 / volume
+        return ibu
+
 class SRMCalculator(object):
 
     def __init__(self):
