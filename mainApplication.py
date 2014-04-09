@@ -1,9 +1,11 @@
 import modules.calculators as Calc
 import time
+import math
 
 
 ogCalculator = Calc.OriginalGravityCalculator()
 srmCalculator = Calc.SRMCalculator()
+ibuCalculator = Calc.IBUCalculator()
 
 def app():
     while True:
@@ -21,6 +23,9 @@ def app():
             time.sleep(1)
             return calcSRM()
 
+        elif helper.lower() in ('calculate ibu', 'calc ibu'):
+            time.sleep(1)
+            return calcIBU()
 
 def calcOG():
     method = raw_input("How will you be brewing today? ")
@@ -93,5 +98,25 @@ def calcSRM():
         ingredient_place_holder += 1
 
     return total_srm
+
+def calcIBU():
+    import modules.utilization_library as util
+
+    ingredients = int(raw_input("How many different hop additions will you be making? "))
+    volume = float(raw_input("What will be your starting boil volume? "))
+    original_gravity = round(float(raw_input("What is the original gravity? ")), 2)
+    ingredient_place_holder = 1
+    total_ibu = 0.0
+
+    while ingredient_place_holder <= ingredients:
+        weight = float(raw_input("Hop " + str(ingredient_place_holder) + " weight. "))
+        alpha_acid = float(raw_input("Hop " + str(ingredient_place_holder) + " alpha acid percentage. "))
+        boil_time = int(raw_input("how long will hop" + str(ingredient_place_holder) + "be in the boil? "))
+        aau = ibuCalculator.calcAAU(weight, alpha_acid)
+        utilization = util.utilization[boil_time][original_gravity]
+        total_ibu += ibuCalculator.calcIBU(aau, utilization, volume)
+        ingredient_place_holder += 1
+    return total_ibu
+
 
 print app()

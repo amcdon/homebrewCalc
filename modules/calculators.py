@@ -8,7 +8,7 @@ class OriginalGravityCalculator(object):
         points = extractWeight * extractPPG / volume
         return points
 
-    def allGrain(self,maltWeight, maltPPG, efficiency, volume):
+    def allGrain(self, maltWeight, maltPPG, efficiency, volume):
         efficiency = efficiency / 100 #set as a decimal
         points = maltWeight * maltPPG * efficiency / volume
         return points
