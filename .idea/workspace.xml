@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfc6094c-bda7-4968-8237-9050111cd32c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/utilization_library.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/homeBrewCalc.iml" afterPath="$PROJECT_DIR$/.idea/homeBrewCalc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/utilization_library.py" afterPath="$PROJECT_DIR$/modules/utilization_library.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homeBrewCalc.iws" />
@@ -52,7 +49,7 @@
       <file leaf-file-name="utilization_library.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="35" selection-start="3787" selection-end="3787" vertical-scroll-proportion="0.84042555" vertical-offset="2991" max-vertical-offset="3555">
+            <state line="20" column="21" selection-start="405" selection-end="405" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="3555">
               <folding />
             </state>
           </provider>
@@ -382,12 +379,18 @@
       <created>1394768630793</created>
       <updated>1394768630793</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added ibu utilization library for ibu calculator">
+      <created>1397012054831</created>
+      <updated>1397012054831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="645" y="25" width="635" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,6 +422,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Added ibu utilization library for ibu calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ibu utilization library for ibu calculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,7 +468,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/utilization_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="35" selection-start="3787" selection-end="3787" vertical-scroll-proportion="0.84042555" vertical-offset="2991" max-vertical-offset="3555">
+        <state line="20" column="21" selection-start="405" selection-end="405" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="3555">
           <folding />
         </state>
       </provider>
