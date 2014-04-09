@@ -8,7 +8,7 @@ class OriginalGravityCalculator(object):
         points = extractWeight * extractPPG / volume
         return points
 
-    def allGrain(self,maltWeight, maltPPG, efficiency, volume):
+    def allGrain(self, maltWeight, maltPPG, efficiency, volume):
         efficiency = efficiency / 100 #set as a decimal
         points = maltWeight * maltPPG * efficiency / volume
         return points
@@ -21,6 +21,14 @@ class IBUCalculator(object):
 
     def __init__(self):
         pass
+
+    def calcAAU(self, weight, alphaAcids):
+        aau = weight * alphaAcids
+        return aau
+
+    def calcIBU(self, aau, utilization, volume):
+        ibu = aau * utilization * 75 / volume
+        return ibu
 
 class SRMCalculator(object):
 
